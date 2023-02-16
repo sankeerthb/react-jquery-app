@@ -21,7 +21,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <div>Click the box to open it</div>
+        <div>Click the box to open it ##update sb 2pm</div>
         <fieldset>
           <legend>Using <a href='https://jquery.com/'>jQuery</a></legend>
           <GiftBoxJQuery isOpen={this.state.isOpenJQuery} openBox={() => this.setState({isOpenJQuery: true})}/>
